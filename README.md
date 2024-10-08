@@ -5,7 +5,7 @@ This project utilizes **Dagster** and **DuckDB** to create a data pipeline for a
 
 ## Asset Graph
 
-![Asset graph](asset-graph.png)
+![Asset graph](asset_graph.png)
 
 ## Features
 

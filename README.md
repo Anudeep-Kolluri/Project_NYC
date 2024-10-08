@@ -3,6 +3,12 @@
 ## Project Description
 This project utilizes **Dagster** and **DuckDB** to create a data pipeline for analyzing and visualizing New York City taxi trip data, specifically focusing on trips in Manhattan. The pipeline integrates geospatial analysis using **GeoPandas** and visualizes the results with **Plotly**. Key tasks include generating statistics on taxi trips by zone in Manhattan and analyzing weekly trip data, with outputs stored as CSV and GeoJSON files.
 
+[![Dagster](https://img.shields.io/badge/Dagster-#00BFFF?style=flat&logo=dagster&logoColor=white)](https://dagster.io/)
+[![DuckDB](https://img.shields.io/badge/DuckDB-#FF4757?style=flat&logo=duckdb&logoColor=white)](https://duckdb.org/)
+[![GeoPandas](https://img.shields.io/badge/GeoPandas-#51C0D1?style=flat&logo=geopandas&logoColor=white)](https://geopandas.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-#3C9D8C?style=flat&logo=plotly&logoColor=white)](https://plotly.com/)
+[![Pandas](https://img.shields.io/badge/Pandas-#150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+
 ## Features
 1. **Manhattan Taxi Trip Statistics:**
    - Queries taxi trip data from DuckDB to calculate the number of trips in each zone in Manhattan.
